@@ -12,3 +12,9 @@ HTML:
 ```
 <script src="https://raw.githubusercontent.com/MrDrakosss/JavaScript-Simple-Library/main/v1.0/LibraryImporter-v1.0.js"></script>
 ```
+jQuery:
+```
+$.getScript('ajax/test.js', function() {
+    alert('Load was performed.');
+});
+```
