@@ -13,7 +13,7 @@ src="https://raw.githubusercontent.com/MrDrakosss/JavaScript-Simple-Library/main
 ```
 jQuery:
 ```
-$.getScript('ajax/test.js', function() {
+$.getScript('ajax/https://raw.githubusercontent.com/MrDrakosss/JavaScript-Simple-Library/main/v1.0/LibraryImporter-v1.0.js', function() {
     alert('Load was performed.');
 });
 ```
