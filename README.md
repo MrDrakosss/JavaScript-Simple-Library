@@ -4,7 +4,7 @@ I created an additional library with some useful functions
 
 # 🕐 Versions
 Select your preferred version
-## Version 1.0
+## 1️⃣ Version 1.0
 HTML:
 ```
 <script
