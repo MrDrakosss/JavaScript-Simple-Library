@@ -1,8 +1,8 @@
-# JavaScript Library
+# 📑 JavaScript Library
 
 I created an additional library with some useful functions
 
-# Versions
+# 🕐 Versions
 Select your preferred version
 ## Version 1.0
 HTML:
