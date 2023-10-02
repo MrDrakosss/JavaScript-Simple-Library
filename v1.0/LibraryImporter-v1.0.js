@@ -20,17 +20,17 @@ class LibraryImporter {
 
             
             script = document.createElement("SCRIPT");
-            script.src = 'https://raw.githubusercontent.com/MrDrakosss/JavaScript-Simple-Library/main/array_library.js';
+            script.src = 'https://raw.githubusercontent.com/MrDrakosss/JavaScript-Simple-Library/main/v1.0/jQuery/array.js';
             script.type = 'text/javascript';
             document.getElementsByTagName("head")[0].appendChild(script);
 
             script = document.createElement("SCRIPT");
-            script.src = 'https://raw.githubusercontent.com/MrDrakosss/JavaScript-Simple-Library/main/math_library.js';
+            script.src = 'https://raw.githubusercontent.com/MrDrakosss/JavaScript-Simple-Library/main/v1.0/jQuery/math.js';
             script.type = 'text/javascript';
             document.getElementsByTagName("head")[0].appendChild(script);
 
             script = document.createElement("SCRIPT");
-            script.src = 'https://raw.githubusercontent.com/MrDrakosss/JavaScript-Simple-Library/main/string_library.js';
+            script.src = 'https://raw.githubusercontent.com/MrDrakosss/JavaScript-Simple-Library/main/v1.0/jQuery/string.js';
             script.type = 'text/javascript';
             document.getElementsByTagName("head")[0].appendChild(script);
         }
@@ -40,17 +40,17 @@ class LibraryImporter {
             console.info('SimpleLibrary version setup: Normal version');
 
             var script = document.createElement("SCRIPT");
-            script.src = 'https://raw.githubusercontent.com/MrDrakosss/JavaScript-Simple-Library/main/array_library.js';
+            script.src = 'https://raw.githubusercontent.com/MrDrakosss/JavaScript-Simple-Library/main/v1.0/normal/array.js';
             script.type = 'text/javascript';
             document.getElementsByTagName("head")[0].appendChild(script);
 
             script = document.createElement("SCRIPT");
-            script.src = 'https://raw.githubusercontent.com/MrDrakosss/JavaScript-Simple-Library/main/math_library.js';
+            script.src = 'https://raw.githubusercontent.com/MrDrakosss/JavaScript-Simple-Library/main/v1.0/normal/math.js';
             script.type = 'text/javascript';
             document.getElementsByTagName("head")[0].appendChild(script);
 
             script = document.createElement("SCRIPT");
-            script.src = 'https://raw.githubusercontent.com/MrDrakosss/JavaScript-Simple-Library/main/string_library.js';
+            script.src = 'https://raw.githubusercontent.com/MrDrakosss/JavaScript-Simple-Library/main/v1.0/normal/string.js';
             script.type = 'text/javascript';
             document.getElementsByTagName("head")[0].appendChild(script);
 
@@ -59,3 +59,5 @@ class LibraryImporter {
         }
     }
 }
+
+new LibraryImporter().setup();
