@@ -2,9 +2,6 @@
 
 I created an additional library with some useful functions
 
-# How to use
-Implement this code your html head:
-
 # Versions
 Select your preferred version
 ## Version 1.0
