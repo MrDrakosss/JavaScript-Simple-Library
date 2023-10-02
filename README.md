@@ -18,85 +18,29 @@ $.getScript('ajax/test.js', function() {
 });
 ```
 
-# Upcoming feature list:
-## 📁 List of components
+## 📁 Upcoming feature list:
 
 <details>
 <summary>
   show / hide
 </summary>
 
-- Actions
+- Arrays
 
-  - [x] Button
-  - [x] Dropdown
-  - [x] Modal
-  - [x] Swap
+  - [x] random (Random item from the list)
 
-- Data display
+- Math
 
-  - [x] Alert
-  - [x] Avatar
-  - [x] Badge
-  - [ ] Banner
-  - [ ] Calendar
-  - [x] Card
-  - [x] Carousel
-  - [x] Chat bubble
-  - [x] Collapse
-  - [x] Countdown
-  - [ ] Empty placeholder
-  - [x] Kbd
-  - [x] Loading
-  - [x] Progress
-  - [x] Radial progress
-  - [x] Stat
-  - [x] Table
-  - [ ] Tag
-  - [ ] Timeline
-  - [x] Toast
-  - [x] Tooltip
-  - [x] Treeview
+  - [x] chance (Chance calculator)
+  - [x] plcTime (Plc time convert from plc memory)
 
-- Data input
-  - [x] Checkbox
-  - [x] File input
-  - [x] Text input
-  - [x] Radio
-  - [x] Range
-  - [x] Rating
-  - [x] Select
-  - [x] Textarea
-  - [x] Toggle
-- Layout
-
-  - [x] Artboard
-  - [x] Button group
-  - [x] Divider
-  - [x] Drawer
-  - [x] Footer
-  - [x] Join
-  - [x] Hero
-  - [x] Indicator
-  - [x] Input group
-  - [x] Mask
-  - [x] Stack
-
-- Navigation
-
-  - [x] Bottom Navigation
-  - [x] Breadcrumbs
-  - [x] Link
-  - [x] Menu
-  - [x] Navbar
-  - [x] Pagination
-  - [x] Steps
-  - [x] Tab
-
-- Mockup
-  - [x] Browser
-  - [x] Code
-  - [x] Phone
-  - [x] Window
+- String
+  
+  - [x] capitalizeFirstLetter
+  - [x] formatSpaceBeforeNumbers
+  - [x] containsNumbers
+  - [x] formatNumber
+  - [x] formatTime
+  - [x] format0
 
 </details>
